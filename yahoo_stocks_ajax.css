@@ -1,3 +1,29 @@
 body{
-	
+	/* hide everything outside the body */
+	/* overflow: hidden; */
 }
+#pages{
+	/* Make the pages div twice the width of the screen and hide everything outside body */
+	width: 200vw;
+}
+#page-1, #page-2 {
+	width: 100vw;
+	float: left;
+	height: 100vh;
+	position: relative;
+	transition: all 3s;
+}
+#arrow-1 #arrow-2{
+	position: absolute;
+	top: 50%;
+	background-color: blue;
+	color: white;
+	height: 200px;
+	width: 200px;  
+}
+#arrow-1{
+	right: 0px;
+}
+#arrow-2{
+	left: 0px;
+} 
